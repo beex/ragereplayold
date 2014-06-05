@@ -1,4 +1,5 @@
 Ragereplay::Application.routes.draw do
+  get "landings/index"
   resources :comments do
   #->Prelang (voting/acts_as_votable)
   member do
